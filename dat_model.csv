@@ -1,273 +1,273 @@
-parameter,description,value,low,high,dist,para1,para2,source
-rlps_prob,Annual probability of relapse,0.71743574,0.647043501,0.774179157,Beta,137.5502321,54.17457951,Thomas 2022
-rlps_rr_ami_pla,Risk ratio of relapse by treatment: amisulpride oral vs. placebo,0.192592593,0.095383515,0.388871252,Lognorm,-1.64717824,0.358505754,"Ostuzzi 2022, Thomas 2022"
-rlps_rr_ari_pla,Risk ratio of relapse by treatment: aripiprazole oral vs. placebo,0.32,0.14,0.56,Lognorm,-1.139434283,0.353646521,Thomas 2022
-rlps_rr_car_pla,Risk ratio of relapse by treatment: cariprazine oral vs. placebo,0.65,0.16,1.14,Lognorm,-0.430782916,0.500920849,Thomas 2022
-rlps_rr_lur_pla,Risk ratio of relapse by treatment: lurasidone oral vs. placebo,0.63,0.25,1.02,Lognorm,-0.46203546,0.358698211,Thomas 2022
-rlps_rr_ola_pla,Risk ratio of relapse by treatment: olanzapine oral vs. placebo,0.2,0.09,0.38,Lognorm,-1.609437912,0.367439179,Thomas 2022
-rlps_rr_que_pla,Risk ratio of relapse by treatment: quetiapine oral vs. placebo,0.47,0.24,0.72,Lognorm,-0.755022584,0.280258237,Thomas 2022
-rlps_rr_ris_pla,Risk ratio of relapse by treatment: risperidone oral vs. placebo,0.29,0.14,0.49,Lognorm,-1.237874356,0.31958239,Thomas 2022
-rlps_rr_clo_pla,Risk ratio of relapse by treatment: clozapine oral vs. placebo,0.0594,0.033131737,0.106494869,Lognorm,-2.823461053,0.297858459,"Essali 2009, Thomas 2022"
-rlps_rr_ari2_pla,Risk ratio of relapse by treatment: aripiprazole LAI vs. placebo,0.32,0.14,0.57,Lognorm,-1.139434283,0.358161719,Thomas 2022
-rlps_rr_pal2_pla,Risk ratio of relapse by treatment: paliperidone LAI vs. placebo,0.31,0.16,0.48,Lognorm,-1.171182982,0.280258237,Thomas 2022
-rlps_rr_ris2_pla,Risk ratio of relapse by treatment: risperidone LAI vs. placebo,0.25,0.12,0.47,Lognorm,-1.386294361,0.348275753,Thomas 2022
-rlps_hr_cmp_part_full,Hazard ratio of relapse by compliance: partial vs. full,1.785185185,1.309000671,2.434594738,Lognorm,0.579522155,0.158294977,Gilmer 2004
-rlps_hr_cmp_none_full,Hazard ratio of relapse by compliance: none vs. full,2.585185185,1.87644953,3.56161055,Lognorm,0.949797144,0.163477398,Gilmer 2004
-rcvr_time,"Duration of relapse, years",0.5,0.375,0.625,Norm,0.5,0.06377551,NICE 2014 (Range: ±25%)
-discon_ami_prob,Annual probability of discontinuation using amisulpride oral,0.247319216,0.159159363,0.384311633,Beta,13.70820089,41.7189556,"Ostuzzi 2022, Thomas 2022"
-discon_ari_prob,Annual probability of discontinuation using aripiprazole oral,0.458980365,0.328935928,0.581375129,Beta,27.02374402,31.85403399,Thomas 2022
-discon_car_prob,Annual probability of discontinuation using cariprazine oral,0.611973819,0.351884946,0.818514984,Beta,9.643446551,6.114493158,Thomas 2022
-discon_lur_prob,Annual probability of discontinuation using lurasidone oral,0.512528074,0.351884946,0.665521529,Beta,19.49086345,18.53800647,Thomas 2022
-discon_ola_prob,Annual probability of discontinuation using olanzapine oral,0.267738546,0.183592146,0.359534619,Beta,25.78892015,70.53236242,Thomas 2022
-discon_que_prob,Annual probability of discontinuation using quetiapine oral,0.420732001,0.30598691,0.543126765,Beta,27.59833453,37.99766119,Thomas 2022
-discon_ris_prob,Annual probability of discontinuation using risperidone oral,0.30598691,0.214190837,0.413082328,Beta,24.93539238,56.55630411,Thomas 2022
-discon_clo_prob,Annual probability of discontinuation using clozapine oral,0.327979719,0.219801409,0.489399483,Beta,14.95524227,30.64282801,"Kishimoto 2019, Thomas 2022"
-discon_ari2_prob,Annual probability of discontinuation using aripiprazole LAI,0.359534619,0.260088873,0.47427971,Beta,27.3703107,48.75674149,Thomas 2022
-discon_pal2_prob,Annual probability of discontinuation using paliperidone LAI,0.428381674,0.328935928,0.512528074,Beta,47.39407129,63.24108003,Thomas 2022
-discon_ris2_prob,Annual probability of discontinuation using risperidone LAI,0.344235273,0.229490182,0.47427971,Beta,19.58291782,37.30526107,Thomas 2022
-switch_rlps_prop,Proportion of switch after relapse,0.5,0.25,0.75,Beta,7.1832,7.1832,Assumption
-eps_ami_prop,Proportion of acute EPS using amisulpride oral,0.28259234,0.180411738,0.384849323,Beta,20.78124218,52.7566398,"Leucht 2013, Thomas 2022"
-eps_ari_prop,Proportion of acute EPS using aripiprazole oral,0.414079644,0.224588577,0.589592769,Beta,11.1732344,15.81006352,Thomas 2022
-eps_car_prop,Proportion of acute EPS using cariprazine oral,0.357369789,0.148053606,0.573364297,Beta,6.614613613,11.89454361,Thomas 2022
-eps_lur_prop,Proportion of acute EPS using lurasidone oral,0.188733735,0.085385075,0.435783048,Beta,3.427957634,14.73497246,Thomas 2022
-eps_ola_prop,Proportion of acute EPS using olanzapine oral,0.043361325,0.011538378,0.232242112,Beta,0.524060185,11.56182935,Thomas 2022
-eps_que_prop,Proportion of acute EPS using quetiapine oral,0.211470449,0.119826819,0.385086209,Beta,7.489544219,27.92696083,Thomas 2022
-eps_ris_prop,Proportion of acute EPS using risperidone oral,0.258112607,0.134738016,0.479027079,Beta,6.149291353,17.67477296,Thomas 2022
-eps_clo_prop,Proportion of acute EPS using clozapine oral,0.064995097,0.022646298,0.130897096,Beta,5.114471092,73.57563479,"Leucht 2013, Thomas 2022"
-eps_ari2_prop,Proportion of acute EPS using aripiprazole LAI,0.451324766,0.264246611,0.618607752,Beta,13.22513337,16.07778629,Thomas 2022
-eps_pal2_prop,Proportion of acute EPS using paliperidone LAI,0.350168858,0.225902331,0.526961341,Beta,13.15886957,24.41977073,Thomas 2022
-eps_ris2_prop,Proportion of acute EPS using risperidone LAI,0.270781297,0.13616322,0.531799062,Beta,4.978211815,13.40641025,Thomas 2022
-wg_ami_prop,Proportion of weight gain using amisulpride oral,0.271179523,0.128084401,0.446657813,Beta,7.84380007,21.08095052,NICE 2014
-wg_ari_prop,Proportion of weight gain using aripiprazole oral,0.128509926,0.065385622,0.218627911,Beta,9.289316205,62.99549848,NICE 2014
-wg_car_prop,Proportion of weight gain using cariprazine oral,0.206,0.06,0.714,Beta,1.004518917,3.871786505,"Ostuzzi 2022, NICE 2014"
-wg_lur_prop,Proportion of weight gain using lurasidone oral,0.188679245,0.053191489,0.666666667,Beta,0.990606343,4.259607275,"Ostuzzi 2022, NICE 2014"
-wg_ola_prop,Proportion of weight gain using olanzapine oral,0.364118477,0.254287845,0.474182354,Beta,26.42787369,46.15255088,NICE 2014
-wg_que_prop,Proportion of weight gain using quetiapine oral,0.4,0.126582278,1,Beta,1.533745732,2.300618598,"Ostuzzi 2022, NICE 2014"
-wg_ris_prop,Proportion of weight gain using risperidone oral,0.178914525,0.094432571,0.294283698,Beta,9.933119027,45.58567704,NICE 2014
-wg_clo_prop,Proportion of weight gain using clozapine oral,0.256,0.214,0.306,Beta,88.26561844,256.5219536,"Essali 2009, NICE 2014"
-wg_ari2_prop,Proportion of weight gain using aripiprazole LAI,0.128509926,0.065385622,0.218627911,Beta,9.289316205,62.99549848,NICE 2014
-wg_pal2_prop,Proportion of weight gain using paliperidone LAI,0.177347439,0.080966823,0.302065885,Beta,7.95591209,36.90468545,NICE 2014
-wg_ris2_prop,Proportion of weight gain using risperidone LAI,0.178914525,0.094432571,0.294283698,Beta,9.933119027,45.58567704,NICE 2014
-sdtn_ami_prop,Proportion of sedation using amisulpride oral,0.028163427,0.014481094,0.048728402,Beta,10.07095573,347.518895,"Leucht 2013, Thomas 2022"
-sdtn_ari_prop,Proportion of sedation using aripiprazole oral,0.014,0.0072,0.0272,Beta,7.410122496,521.8843415,Thomas 2022
-sdtn_car_prop,Proportion of sedation using cariprazine oral,0.01,0.004,0.0246,Beta,3.57486568,353.9117023,"Ostuzzi 2022, Thomas 2022"
-sdtn_lur_prop,Proportion of sedation using lurasidone oral,0.0242,0.011,0.0536,Beta,4.814675871,194.1388725,Thomas 2022
-sdtn_ola_prop,Proportion of sedation using olanzapine oral,0.0296,0.017,0.0506,Beta,11.54291598,378.4204618,Thomas 2022
-sdtn_que_prop,Proportion of sedation using quetiapine oral,0.056,0.035,0.0884,Beta,15.89682747,267.9750916,Thomas 2022
-sdtn_ris_prop,Proportion of sedation using risperidone oral,0.0236,0.0122,0.0446,Beta,7.936781657,328.3675259,Thomas 2022
-sdtn_clo_prop,Proportion of sedation using clozapine oral,0.152542373,0.087862993,0.235092101,Beta,13.82670408,76.81502265,"Leucht 2013, Thomas 2022"
-sdtn_ari2_prop,Proportion of sedation using aripiprazole LAI,0.0434,0.0146,0.1206,Beta,2.420767578,53.35728721,Thomas 2022
-sdtn_pal2_prop,Proportion of sedation using paliperidone LAI,0.035,0.016,0.0752,Beta,5.14813025,141.9413055,Thomas 2022
-sdtn_ris2_prop,Proportion of sedation using risperidone LAI,0.0148,0.0068,0.0322,Beta,5.125074734,341.1637586,Thomas 2022
-sxdf_ami_prop,Proportion of sexual dysfunction using amisulpride oral,0.027522936,0.005765492,0.065296547,Beta,3,106,"Schmidt-Kraepelin 2022, Serretti 2011"
-sxdf_ari_prop,Proportion of sexual dysfunction using aripiprazole oral,0.274193548,0.171472084,0.390705853,Beta,17,45,Serretti 2011
-sxdf_car_prop,Proportion of sexual dysfunction using cariprazine oral,0.009765625,0.005977936,0.014457002,Beta,20,2028,"Schmidt-Kraepelin 2022, Serretti 2011"
-sxdf_lur_prop,Proportion of sexual dysfunction using lurasidone oral,0,NA,NA,NA,NA,NA,Clayton 2018
-sxdf_ola_prop,Proportion of sexual dysfunction using olanzapine oral,0.403578529,0.387428486,0.419832323,Beta,1421,2100,Serretti 2011
-sxdf_que_prop,Proportion of sexual dysfunction using quetiapine oral,0.147302905,0.129511241,0.166018511,Beta,213,1233,Serretti 2011
-sxdf_ris_prop,Proportion of sexual dysfunction using risperidone oral,0.454258675,0.431936346,0.47667212,Beta,864,1038,Serretti 2011
-sxdf_clo_prop,Proportion of sexual dysfunction using clozapine oral,0.527272727,0.434107693,0.619498009,Beta,58,52,Serretti 2011
-sxdf_ari2_prop,Proportion of sexual dysfunction using aripiprazole LAI,0.274193548,0.171472084,0.390705853,Beta,17,45,Serretti 2011
-sxdf_pal2_prop,Proportion of sexual dysfunction using paliperidone LAI,0.565723794,0.382452193,0.729613734,Beta,17.1550975,13.16906014,"Potkin 2017, Serretti 2011"
-sxdf_ris2_prop,Proportion of sexual dysfunction using risperidone LAI,0.454258675,0.431936346,0.47667212,Beta,864,1038,Serretti 2011
-td_ami_prob,Annual probability of tardive dyskinesia using amisulpride oral,0.02371429,0,0.050671133,Beta,3.262138445,134.2978902,Carbon 2018
-td_ari_prob,Annual probability of tardive dyskinesia using aripiprazole oral,0.016856315,0,0.04017087,Beta,2.643206838,154.1648963,Carbon 2018
-td_car_prob,Annual probability of tardive dyskinesia using cariprazine oral,0.046866213,0,0.0888065,Beta,4.032157368,82.00332783,Assume = Lurasidone
-td_lur_prob,Annual probability of tardive dyskinesia using lurasidone oral,0.046866213,0,0.0888065,Beta,4.032157368,82.00332783,Carbon 2018
-td_ola_prob,Annual probability of tardive dyskinesia using olanzapine oral,0.028583536,0.017838968,0.038249291,Beta,29.24728055,993.9739551,Carbon 2018
-td_que_prob,Annual probability of tardive dyskinesia using quetiapine oral,0.024690088,0.001998001,0.046866213,Beta,4.513498383,178.2925891,Carbon 2018
-td_ris_prob,Annual probability of tardive dyskinesia using risperidone oral,0.02371429,0.011928287,0.034394584,Beta,16.69128459,687.1579313,Carbon 2018
-td_clo_prob,Annual probability of tardive dyskinesia using clozapine oral,0.041130219,0.016856315,0.064804799,Beta,10.80073666,251.7978297,Carbon 2018
-td_ari2_prob,Annual probability of tardive dyskinesia using aripiprazole LAI,0.016856315,0,0.04017087,Beta,2.643206838,154.1648963,Carbon 2018
-td_pal2_prob,Annual probability of tardive dyskinesia using paliperidone LAI,0.02371429,0.011928287,0.034394584,Beta,16.69128459,687.1579313,Assume = Risperidone
-td_ris2_prob,Annual probability of tardive dyskinesia using risperidone LAI,0.02371429,0.011928287,0.034394584,Beta,16.69128459,687.1579313,Carbon 2018
-agc_clo_prop,Proportion of agranulocytosis using clozapine,0.007288401,0.005887055,0.008835929,Beta,93,12667,Munro 1999
-bmi_md_ami_pla,Mean difference of BMI (kg/m2) by treatment: amisulpride oral vs. placebo,1.66,0.176307187,3.143692813,Norm,1.66,0.756986129,Deepak 2015
-bmi_md_ari_pla,Mean difference of BMI (kg/m2) by treatment: aripiprazole oral vs. placebo,-0.22,-0.81,0.37,Norm,-0.22,0.301020408,Pilinger 2020
-bmi_md_car_pla,Mean difference of BMI (kg/m2) by treatment: cariprazine oral vs. placebo,0.83,0.003102422,1.656897578,Norm,0.83,0.421886519,Greger 2021
-bmi_md_lur_pla,Mean difference of BMI (kg/m2) by treatment: lurasidone oral vs. placebo,0.24,0.08,0.41,Norm,0.24,0.084183673,Pilinger 2020
-bmi_md_ola_pla,Mean difference of BMI (kg/m2) by treatment: olanzapine oral vs. placebo,1.07,0.9,1.25,Norm,1.07,0.089285714,Pilinger 2020
-bmi_md_que_pla,Mean difference of BMI (kg/m2) by treatment: quetiapine oral vs. placebo,0.7,0.44,0.96,Norm,0.7,0.132653061,Pilinger 2020
-bmi_md_ris_pla,Mean difference of BMI (kg/m2) by treatment: risperidone oral vs. placebo,0.56,0.42,0.7,Norm,0.56,0.071428571,Pilinger 2020
-bmi_md_clo_pla,Mean difference of BMI (kg/m2) by treatment: clozapine oral vs. placebo,1.02,0.27,1.78,Norm,1.02,0.385204082,Pilinger 2020
-bmi_md_ari2_pla,Mean difference of BMI (kg/m2) by treatment: aripiprazole LAI vs. placebo,-0.22,-0.81,0.37,Norm,-0.22,0.301020408,Pilinger 2020
-bmi_md_pal2_pla,Mean difference of BMI (kg/m2) by treatment: paliperidone LAI vs. placebo,0.56,0.42,0.7,Norm,0.56,0.071428571,Pilinger 2020
-bmi_md_ris2_pla,Mean difference of BMI (kg/m2) by treatment: risperidone LAI vs. placebo,0.56,0.42,0.7,Norm,0.56,0.071428571,Pilinger 2020
-tch_md_ami_pla,Mean difference of total cholesterol (mg/dL) by treatment: amisulpride oral vs. placebo,8.108108108,-13.8996139,30.11583012,Norm,8.108108108,11.2284296,Pilinger 2020
-tch_md_ari_pla,Mean difference of total cholesterol (mg/dL) by treatment: aripiprazole oral vs. placebo,2.316602317,-1.930501931,5.791505792,Norm,2.316602317,1.969899929,Pilinger 2020
-tch_md_car_pla,Mean difference of total cholesterol (mg/dL) by treatment: cariprazine oral vs. placebo,-3.474903475,-9.266409266,2.702702703,Norm,-3.474903475,3.05334489,Pilinger 2020
-tch_md_lur_pla,Mean difference of total cholesterol (mg/dL) by treatment: lurasidone oral vs. placebo,-1.158301158,-0.579150579,3.474903475,Norm,-1.158301158,1.034197463,Pilinger 2020
-tch_md_ola_pla,Mean difference of total cholesterol (mg/dL) by treatment: olanzapine oral vs. placebo,15.44401544,11.96911197,18.91891892,Norm,15.44401544,1.772909936,Pilinger 2020
-tch_md_que_pla,Mean difference of total cholesterol (mg/dL) by treatment: quetiapine oral vs. placebo,11.96911197,7.335907336,16.21621622,Norm,11.96911197,2.265384918,Pilinger 2020
-tch_md_ris_pla,Mean difference of total cholesterol (mg/dL) by treatment: risperidone oral vs. placebo,2.316602317,-1.158301158,5.791505792,Norm,2.316602317,1.772909936,Pilinger 2020
-tch_md_clo_pla,Mean difference of total cholesterol (mg/dL) by treatment: clozapine oral vs. placebo,21.62162162,10.03861004,33.2046332,Norm,21.62162162,5.909699787,Pilinger 2020
-tch_md_ari2_pla,Mean difference of total cholesterol (mg/dL) by treatment: aripiprazole LAI vs. placebo,2.316602317,-1.930501931,5.791505792,Norm,2.316602317,1.969899929,Pilinger 2020
-tch_md_pal2_pla,Mean difference of total cholesterol (mg/dL) by treatment: paliperidone LAI vs. placebo,2.316602317,-1.158301158,5.791505792,Norm,2.316602317,1.772909936,Pilinger 2020
-tch_md_ris2_pla,Mean difference of total cholesterol (mg/dL) by treatment: risperidone LAI vs. placebo,2.316602317,-1.158301158,5.791505792,Norm,2.316602317,1.772909936,Pilinger 2020
-hdl_md_ami_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: amisulpride oral vs. placebo,-3.861003861,-12.74131274,5.405405405,Norm,-3.861003861,4.629264833,Pilinger 2020
-hdl_md_ari_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: aripiprazole oral vs. placebo,1.544401544,0,3.088803089,Norm,1.544401544,0.787959972,Pilinger 2020
-hdl_md_car_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: cariprazine oral vs. placebo,0.772200772,-1.544401544,3.088803089,Norm,0.772200772,1.181939957,Pilinger 2020
-hdl_md_lur_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: lurasidone oral vs. placebo,0.772200772,-1.930501931,3.474903475,Norm,0.772200772,1.37892995,Pilinger 2020
-hdl_md_ola_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: olanzapine oral vs. placebo,-0.386100386,-1.544401544,1.158301158,Norm,-0.386100386,0.689464975,Pilinger 2020
-hdl_md_que_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: quetiapine oral vs. placebo,0.386100386,-1.158301158,1.930501931,Norm,0.386100386,0.787959972,Pilinger 2020
-hdl_md_ris_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: risperidone oral vs. placebo,0.386100386,-0.772200772,1.930501931,Norm,0.386100386,0.689464975,Pilinger 2020
-hdl_md_clo_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: clozapine oral vs. placebo,-4.48,-6.813964181,-2.146035819,Norm,-4.48,1.190798052,Gupta 2014
-hdl_md_ari2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: aripiprazole LAI vs. placebo,1.544401544,0,3.088803089,Norm,1.544401544,0.787959972,Pilinger 2020
-hdl_md_pal2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: paliperidone LAI vs. placebo,0.386100386,-0.772200772,1.930501931,Norm,0.386100386,0.689464975,Pilinger 2020
-hdl_md_ris2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: risperidone LAI vs. placebo,0.386100386,-0.772200772,1.930501931,Norm,0.386100386,0.689464975,Pilinger 2020
-tri_md_ami_pla,Mean difference of triglycerides (mg/dL) by treatment: amisulpride oral vs. placebo,7.96460177,-44.24778761,60.17699115,Norm,7.96460177,26.63897417,Pilinger 2020
-tri_md_ari_pla,Mean difference of triglycerides (mg/dL) by treatment: aripiprazole oral vs. placebo,1.769911504,-6.194690265,9.734513274,Norm,1.769911504,4.063572332,Pilinger 2020
-tri_md_car_pla,Mean difference of triglycerides (mg/dL) by treatment: cariprazine oral vs. placebo,0.884955752,-11.50442478,12.38938053,Norm,0.884955752,6.095358497,Pilinger 2020
-tri_md_lur_pla,Mean difference of triglycerides (mg/dL) by treatment: lurasidone oral vs. placebo,0,-12.38938053,11.50442478,Norm,0,6.095358497,Pilinger 2020
-tri_md_ola_pla,Mean difference of triglycerides (mg/dL) by treatment: olanzapine oral vs. placebo,40.7079646,32.74336283,48.67256637,Norm,40.7079646,4.063572332,Pilinger 2020
-tri_md_que_pla,Mean difference of triglycerides (mg/dL) by treatment: quetiapine oral vs. placebo,28.31858407,18.5840708,38.9380531,Norm,28.31858407,5.192342424,Pilinger 2020
-tri_md_ris_pla,Mean difference of triglycerides (mg/dL) by treatment: risperidone oral vs. placebo,3.539823009,-3.539823009,10.61946903,Norm,3.539823009,3.612064295,Pilinger 2020
-tri_md_clo_pla,Mean difference of triglycerides (mg/dL) by treatment: clozapine oral vs. placebo,86.72566372,42.47787611,131.8584071,Norm,86.72566372,22.80115586,Pilinger 2020
-tri_md_ari2_pla,Mean difference of triglycerides (mg/dL) by treatment: aripiprazole LAI vs. placebo,1.769911504,-6.194690265,9.734513274,Norm,1.769911504,4.063572332,Pilinger 2020
-tri_md_pal2_pla,Mean difference of triglycerides (mg/dL) by treatment: paliperidone LAI vs. placebo,3.539823009,-3.539823009,10.61946903,Norm,3.539823009,3.612064295,Pilinger 2020
-tri_md_ris2_pla,Mean difference of triglycerides (mg/dL) by treatment: risperidone LAI vs. placebo,3.539823009,-3.539823009,10.61946903,Norm,3.539823009,3.612064295,Pilinger 2020
-glu_md_ami_pla,Mean difference of fasting glucose (mg/dL) by treatment: amisulpride oral vs. placebo,-8.288288288,-24.86486486,8.468468468,Norm,-8.288288288,8.503401361,Pilinger 2020
-glu_md_ari_pla,Mean difference of fasting glucose (mg/dL) by treatment: aripiprazole oral vs. placebo,2.342342342,-0.900900901,5.585585586,Norm,2.342342342,1.65471594,Pilinger 2020
-glu_md_car_pla,Mean difference of fasting glucose (mg/dL) by treatment: cariprazine oral vs. placebo,4.684684685,-0.900900901,10.45045045,Norm,4.684684685,2.895752896,Pilinger 2020
-glu_md_lur_pla,Mean difference of fasting glucose (mg/dL) by treatment: lurasidone oral vs. placebo,-5.225225225,-9.90990991,-0.540540541,Norm,-5.225225225,2.390145247,Pilinger 2020
-glu_md_ola_pla,Mean difference of fasting glucose (mg/dL) by treatment: olanzapine oral vs. placebo,3.603603604,-0.720720721,6.666666667,Norm,3.603603604,1.884537599,Pilinger 2020
-glu_md_que_pla,Mean difference of fasting glucose (mg/dL) by treatment: quetiapine oral vs. placebo,1.621621622,-1.981981982,5.225225225,Norm,1.621621622,1.838573267,Pilinger 2020
-glu_md_ris_pla,Mean difference of fasting glucose (mg/dL) by treatment: risperidone oral vs. placebo,1.441441441,-1.081081081,3.963963964,Norm,1.441441441,1.287001287,Pilinger 2020
-glu_md_clo_pla,Mean difference of fasting glucose (mg/dL) by treatment: clozapine oral vs. placebo,18.91891892,7.387387387,30.63063063,Norm,18.91891892,5.929398787,Pilinger 2020
-glu_md_ari2_pla,Mean difference of fasting glucose (mg/dL) by treatment: aripiprazole LAI vs. placebo,2.342342342,-0.900900901,5.585585586,Norm,2.342342342,1.65471594,Pilinger 2020
-glu_md_pal2_pla,Mean difference of fasting glucose (mg/dL) by treatment: paliperidone LAI vs. placebo,1.441441441,-1.081081081,3.963963964,Norm,1.441441441,1.287001287,Pilinger 2020
-glu_md_ris2_pla,Mean difference of fasting glucose (mg/dL) by treatment: risperidone LAI vs. placebo,1.441441441,-1.081081081,3.963963964,Norm,1.441441441,1.287001287,Pilinger 2020
-sbp_md_ami_pla,Mean difference of SBP (mmHg) by treatment: amisulpride oral vs. placebo,1.17,-3.030153514,5.370153514,Norm,1.17,2.142935467,Gupta 2014
-sbp_md_ari_pla,Mean difference of SBP (mmHg) by treatment: aripiprazole oral vs. placebo,0.84,-3.324123275,5.004123275,Norm,0.84,2.124552691,Gupta 2014
-sbp_md_car_pla,Mean difference of SBP (mmHg) by treatment: cariprazine oral vs. placebo,4.17,0.395178942,7.944821058,Norm,4.17,1.925929111,Greger 2021
-sbp_md_lur_pla,Mean difference of SBP (mmHg) by treatment: lurasidone oral vs. placebo,-1.59,-2.767779541,-0.412220459,Norm,-1.59,0.600907929,Greger 2021
-sbp_md_ola_pla,Mean difference of SBP (mmHg) by treatment: olanzapine oral vs. placebo,1.28,-0.150309651,2.710309651,Norm,1.28,0.729749822,Greger 2021
-sbp_md_que_pla,Mean difference of SBP (mmHg) by treatment: quetiapine oral vs. placebo,2.6,0.000171209,5.199828791,Norm,2.6,1.326443261,Gupta 2014
-sbp_md_ris_pla,Mean difference of SBP (mmHg) by treatment: risperidone oral vs. placebo,2.6,0.000171209,5.199828791,Norm,2.6,1.326443261,Gupta 2014
-sbp_md_clo_pla,Mean difference of SBP (mmHg) by treatment: clozapine oral vs. placebo,3.9,-2.58875458,10.38875458,Norm,3.9,3.310589071,Gupta 2014
-sbp_md_ari2_pla,Mean difference of SBP (mmHg) by treatment: aripiprazole LAI vs. placebo,0.84,-3.324123275,5.004123275,Norm,0.84,2.124552691,Gupta 2014
-sbp_md_pal2_pla,Mean difference of SBP (mmHg) by treatment: paliperidone LAI vs. placebo,2.6,0.000171209,5.199828791,Norm,2.6,1.326443261,Assume = Risperidone
-sbp_md_ris2_pla,Mean difference of SBP (mmHg) by treatment: risperidone LAI vs. placebo,2.6,0.000171209,5.199828791,Norm,2.6,1.326443261,Gupta 2014
-db_logit_intercept,Intercept of logistic regression of diabetes,-5.517,0,0,NA,0,0,Wilson 2007
-db_or_age_50t64,"Odds ratio of diabetes by age (50-64 vs. <50, year)",0.98,0.64,1.5,Lognorm,-0.020202707,0.217283727,Wilson 2007
-db_or_age_65,"Odds ratio of diabetes by age (>=65 vs. <50, year)",0.92,0.54,1.59,Lognorm,-0.083381609,0.275489836,Wilson 2007
-db_or_male,Odds ratio of diabetes by male,0.99,0.7,1.41,Lognorm,-0.010050336,0.178638941,Wilson 2007
-db_or_pardb,Odds ratio of diabetes by parental diabetes (yes vs. no),1.76,1.17,2.64,Lognorm,0.565313809,0.207595706,Wilson 2007
-db_or_bmi_25t30,"Odds ratio of diabetes by BMI (25-30 vs. <25, kg/m2)",1.35,0.78,2.34,Lognorm,0.300104592,0.280258237,Wilson 2007
-db_or_bmi_30,"Odds ratio of diabetes by BMI (?30 vs. <25, kg/m2 )",2.5,1.45,4.3,Lognorm,0.916290732,0.277309048,Wilson 2007
-db_or_sbp_int_atht,Odds ratio of diabetes by SBP > 130/85 mmHg OR receiving therapy,1.65,1.1,2.46,Lognorm,0.500775288,0.205319176,Wilson 2007
-db_or_hdl_int_sex,Odds ratio of diabetes by HDL (men: < 40 mg/dL; women: <50 mg/dL),2.57,1.75,3.77,Lognorm,0.943905899,0.195780412,Wilson 2007
-db_or_tri_150,Odds ratio of diabetes by triglyceride level >= 150 mg/dL,1.78,1.22,2.59,Lognorm,0.576613364,0.192042606,Wilson 2007
-db_or_glu_100,Odds ratio of diabetes by fasting glucose level >= 100 mg/dL,7.25,4.89,10.74,Lognorm,1.981001469,0.200709894,Wilson 2007
-chd1_m_aft_weibull_intercept,Intercept of accelerated failure time weibull model of incident CHD in male,12.7868,6.39632006,19.17727994,Norm,12.7868,3.260448949,D'Agostino 2000
-chd1_m_ar_age,Accelerated ratio of incident CHD in male by age (year),0.960309165,0.941067179,0.979944591,Lognorm,-0.0405,0.010326914,D'Agostino 2000
-chd1_m_ar_tch_int_hdl,Accelerated ratio of incident CHD in male by ln (total cholesterol/HDL),0.386973138,0.240777215,0.621936793,Lognorm,-0.9494,0.24208326,D'Agostino 2000
-chd1_m_ar_sbp,Accelerated ratio of incident CHD in male by ln (SBP) (lnmmHg),0.361931613,0.198031709,0.661482412,Lognorm,-1.0163,0.307667406,D'Agostino 2000
-chd1_m_ar_sbp_int_atht,"Accelerated ratio of incident CHD in male by If antihypertensive, (200 - SBP) * (SBP - 110) / 100 (mmHg)",0.984028912,0.965865019,1.002534392,Lognorm,-0.0161,0.009505707,D'Agostino 2000
-chd1_m_ar_db,Accelerated ratio of incident CHD in male by diabetes,0.643264041,0.392287514,1.054809577,Lognorm,-0.4412,0.25232666,D'Agostino 2000
-chd1_m_ar_smk,Accelerated ratio of incident CHD in male by current smoker,0.546511461,0.404072072,0.739162139,Lognorm,-0.6042,0.154062256,D'Agostino 2000
-chd1_m_aft_weibull_scale,Scale of accelerated failure time weibull model of incident CHD in male,0.7764,0,0,NA,0,0,D'Agostino 2000
-chd1_f_aft_weibull_intercept,Intercept of accelerated failure time weibull model of incident CHD in female,20.9717,10.49063921,31.45276079,Norm,20.9717,5.347479997,D'Agostino 2000
-chd1_f_ar_age,Accelerated ratio of incident CHD in female by age (year),0.939788903,0.885620694,0.997270264,Lognorm,-0.0621,0.030289046,D'Agostino 2000
-chd1_f_ar_meno,Accelerated ratio of incident CHD in female by menopause,0.021232972,0.001131493,0.398446328,Lognorm,-3.8522,1.495927309,D'Agostino 2000
-chd1_f_ar_age_int_meno,Accelerated ratio of incident CHD in female by age AND menopause (year),1.075300331,1.011423044,1.143211843,Lognorm,0.0726,0.031245769,D'Agostino 2000
-chd1_f_ar_tch_int_hdl,Accelerated ratio of incident CHD in female by ln (total cholesterol/HDL),0.534940368,0.315585802,0.906761951,Lognorm,-0.6256,0.269247285,D'Agostino 2000
-chd1_f_ar_sbp,Accelerated ratio of incident CHD in female by ln (SBP) (lnmmHg),0.105938134,0.034498572,0.32531457,Lognorm,-2.2449,0.572417012,D'Agostino 2000
-chd1_f_ar_sbp_int_atht,Accelerated ratio of incident CHD in female by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,0.906648904,0.754442463,1.089562525,Lognorm,-0.098,0.093763399,D'Agostino 2000
-chd1_f_ar_db,Accelerated ratio of incident CHD in female by diabetes,0.591969598,0.36839782,0.951221711,Lognorm,-0.5243,0.241985659,D'Agostino 2000
-chd1_f_ar_smk,Accelerated ratio of incident CHD in female by current smoker,0.685436101,0.49842173,0.942620717,Lognorm,-0.3777,0.162555466,D'Agostino 2000
-chd1_f_ar_tri,Accelerated ratio of incident CHD in female by ln (triglycerides) (ln mg/dL),1.308393436,1.0119021,1.691757912,Lognorm,0.2688,0.131106211,D'Agostino 2000
-chd1_f_ar_alcohol,Accelerated ratio of incident CHD in female by alcohol (ow/wk),1.054324207,0.995603655,1.116508089,Lognorm,0.0529,0.029237774,D'Agostino 2000
-chd1_f_aft_weibull_scale,Scale of accelerated failure time weibull model of incident CHD in female,0.7467,0,0,NA,0,0,D'Agostino 2000
-chd2_m_aft_weibull_intercept,Intercept of accelerated failure time weibull model of subsequent CHD in male,4.995,2.498640684,7.491359316,Norm,4.995,1.273652712,D'Agostino 2000
-chd2_m_ar_age,Accelerated ratio of subsequent CHD in male by age (year),0.985604619,0.968225794,1.003295379,Lognorm,-0.0145,0.009076511,D'Agostino 2000
-chd2_m_ar_tch_int_hdl,Accelerated ratio of subsequent CHD in male by ln (total cholesterol/HDL),0.509767775,0.332848577,0.780724937,Lognorm,-0.6738,0.217483477,D'Agostino 2000
-chd2_m_ar_db,Accelerated ratio of subsequent CHD in male by diabetes,0.737713309,0.524562341,1.037476166,Lognorm,-0.3042,0.173975,D'Agostino 2000
-chd2_m_aft_weibull_scale,Scale of accelerated failure time weibull model of subsequent CHD in male,0.9994,0,0,NA,0,0,D'Agostino 2000
-chd2_f_aft_weibull_intercept,Intercept of accelerated failure time weibull model of subsequent CHD in female,13.537,5.504734327,21.56926567,Norm,13.537,4.098094731,D'Agostino 2000
-chd2_f_ar_age,Accelerated ratio of subsequent CHD in female by age (year),0.977751237,0.941913617,1.014952396,Lognorm,-0.0225,0.019051893,D'Agostino 2000
-chd2_f_ar_tch_int_hdl,Accelerated ratio of subsequent CHD in female by ln (total cholesterol/HDL),0.434308573,0.204241434,0.923534136,Lognorm,-0.834,0.384924737,D'Agostino 2000
-chd2_f_ar_sbp,Accelerated ratio of subsequent CHD in female by ln (SBP) (lnmmHg),0.253776835,0.049464254,1.302004516,Lognorm,-1.3713,0.834288272,D'Agostino 2000
-chd2_f_ar_db,Accelerated ratio of subsequent CHD in female by diabetes,0.45707856,0.261577163,0.798696671,Lognorm,-0.7829,0.284758142,D'Agostino 2000
-chd2_f_ar_smk,Accelerated ratio of subsequent CHD in female by current smoker,0.692878929,0.404756186,1.18609975,Lognorm,-0.3669,0.274270614,D'Agostino 2000
-chd2_f_aft_weibull_scale,Scale of accelerated failure time weibull model of subsequent CHD in female,1.0313,0,0,NA,0,0,D'Agostino 2000
-strk_m_aft_exp_rate,Rate of exponential model of stroke in male,0.003045921,0,0,NA,0,0,D'Agostino 1994
-strk_m_hr_age,Hazard ratio of stroke in male by age (centre at 50 per 10 years),1.050010328,1.029025255,1.071423352,Lognorm,0.0488,0.0103,D'Agostino 1994
-strk_m_hr_sbp,Hazard ratio of stroke in male by SBP (centred at 110 per 10 mmHg),1.015316108,1.009165751,1.021503948,Lognorm,0.0152,0.0031,D'Agostino 1994
-strk_m_hr_sbp_int_atht,Hazard ratio of stroke in male by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,1.000190018,0.999994,1.000386075,Lognorm,0.00019,0.0001,D'Agostino 1994
-strk_m_hr_cvd,Hazard ratio of stroke in male by CVD,1.726333853,1.675989941,1.778190012,Lognorm,0.546,0.0151,D'Agostino 1994
-strk_m_hr_lvh,Hazard ratio of stroke in male by left ventricular hypertrophy,2.19547846,1.256819094,3.835178582,Lognorm,0.7864,0.2846,D'Agostino 1994
-strk_m_hr_smk,Hazard ratio of stroke in male by Current smoker,1.686069364,1.274196775,2.231076044,Lognorm,0.5224,0.1429,D'Agostino 1994
-strk_m_hr_af,Hazard ratio of stroke in male by atrial fabriation,1.821754413,1.009690653,3.286936579,Lognorm,0.5998,0.3011,D'Agostino 1994
-strk_m_hr_db,Hazard ratio of stroke in male by diabetes,1.409027852,0.972073364,2.042396759,Lognorm,0.3429,0.1894,D'Agostino 1994
-strk_f_aft_exp_rate,Rate of exponential model of stroke in female,0.001005034,0,0,NA,0,0,D'Agostino 1994
-strk_f_hr_age,Hazard ratio of stroke in female by age (centre at 50 per 10 years),1.072400936,1.053856191,1.091272013,Lognorm,0.0699,0.0089,D'Agostino 1994
-strk_f_hr_sbp,Hazard ratio of stroke in female by SBP (centred at 110 per 10 mmHg),1.016230303,1.011461182,1.021021912,Lognorm,0.0161,0.0024,D'Agostino 1994
-strk_f_hr_sbp_int_atht,Hazard ratio of stroke in female by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,1.000260034,1.000122808,1.000397279,Lognorm,0.00026,0.00007,D'Agostino 1994
-strk_f_hr_cvd,Hazard ratio of stroke in female by CVD,1.553328426,1.166313594,2.068765391,Lognorm,0.4404,0.1462,D'Agostino 1994
-strk_f_hr_lvh,Hazard ratio of stroke in female by left ventricular hypertrophy,2.237815127,1.39015604,3.602341317,Lognorm,0.8055,0.2429,D'Agostino 1994
-strk_f_hr_smk,Hazard ratio of stroke in female by current smoker,1.719270375,1.293189956,2.285735833,Lognorm,0.5419,0.1453,D'Agostino 1994
-strk_f_hr_af,Hazard ratio of stroke in female by atrial fabriation,3.056590258,1.946646211,4.799405231,Lognorm,1.1173,0.2302,D'Agostino 1994
-strk_f_hr_db,Hazard ratio of stroke in female by diabetes,1.751372909,1.253605751,2.446787648,Lognorm,0.5604,0.1706,D'Agostino 1994
-death_m_smr,SMR of death in schizophrenia in male,4.1,2.8,5.9,Lognorm,1.410986974,0.190135952,Reininghaus 2014
-death_f_smr,SMR of death in schizophrenia in female,2.8,1.6,5.1,Lognorm,1.029619417,0.295723702,Reininghaus 2014
-death_strk_m_prop,Proportion of death at stroke in male,0.264,0.259,0.269,Beta,7882.123882,21974.40597,Seminog 2019
-death_strk_f_prop,Proportion of death at stroke in female,0.285,0.21,0.289,Beta,142.7076495,358.0209453,Seminog 2019
-death_chd_m_prop,Proportion of death at CHD in male,0.078245056,0.07711361,0.079383934,Beta,16823,198181,Asaria 2017
-death_chd_f_prop,Proportion of death at CHD in female,0.122904422,0.121119268,0.124700639,Beta,15872,113269,Asaria 2017
-death_agc_prop,Proportion of death at agranulocytosis,0.021505376,0.002643638,0.002643638,Beta,2,91,Munro 1999
-qol_rcvr,Utility weight at stable state of schizophrenia,0.807037815,0.74,0.88,Beta,97.72467678,23.3659028,Lenert 2004
-qol_rlps,Utility weight at relapse state of schizophrenia,0.539635628,0.42,0.65,Beta,38.40246706,32.76123137,Lenert 2004
-qol_rd_agc,Utility weight by agranulocytosis,0.46,0.2,0.9,Beta,3.12331904,3.66650496,Week 1991
-qol_md_eps,Utility decrement due to EPS,-0.042,-0.05768,-0.02632,Norm,-0.042,0.008,Millier 2014
-qol_md_sdtn,Utility decrement due to sedation,-0.018,-0.03368,-0.00232,Norm,-0.018,0.008,Millier 2014
-qol_md_sxdf,Utility decrement due to sexual dysfunction,-0.023,-0.0426,-0.0034,Norm,-0.023,0.01,Millier 2014
-qol_md_wg,Utility decrement due to weight gain,-0.021,-0.03668,-0.00532,Norm,-0.021,0.008,Millier 2014
-qol_md_td,Utility decrement due to tardive dyskinesia,-0.042,-0.05768,-0.02632,Norm,-0.042,0.008,Assume = EPS
-qol_md_db,Utility decrement due to diabetes,-0.15,-0.18724,-0.11276,Norm,-0.15,0.019,Briggs 2008
-qol_md_chd,Utility decrement due to CHD,-0.055,-0.067,-0.042,Norm,-0.055,0.006377551,Clarke 2002
-qol_md_strk,Utility decrement due to stroke,-0.16,-0.222,-0.105,Norm,-0.16,0.029846939,Clarke 2002
-cost_y_ami,Annual drug tariff of amisulpride oral,85.83375,64.3753125,107.2921875,Gamma,61.4656,1.396451836,BNF 79 [Range: ±25%]
-cost_y_ari,Annual drug tariff of aripiprazole oral,23.74125,17.8059375,29.6765625,Gamma,61.4656,0.386252636,BNF 79 [Range: ±25%]
-cost_y_car,Annual drug tariff of cariprazine oral,1048.2675,786.200625,1310.334375,Gamma,61.4656,17.05453945,BNF 79 [Range: ±25%]
-cost_y_lur,Annual drug tariff of lurasidone oral,1183.41,887.5575,1479.2625,Gamma,61.4656,19.2532083,BNF 79 [Range: ±25%]
-cost_y_ola,Annual drug tariff of olanzapine oral,22.828125,17.12109375,28.53515625,Gamma,61.4656,0.371396765,BNF 79 [Range: ±25%]
-cost_y_que,Annual drug tariff of quetiapine oral,93.2605,69.945375,116.575625,Gamma,61.4656,1.517279584,BNF 79 [Range: ±25%]
-cost_y_ris,Annual drug tariff of risperidone oral,159.7207813,119.7905859,199.6509766,Gamma,61.4656,2.598539366,BNF 79 [Range: ±25%]
-cost_y_clo,Annual drug tariff of clozapine oral,867.834,650.8755,1084.7925,Gamma,61.4656,14.11901942,BNF 79 [Range: ±25%]
-cost_y_ari2,Annual drug tariff of aripiprazole LAI,2644.92,1983.69,3306.15,Gamma,61.4656,43.03089858,BNF 79 [Range: ±25%]
-cost_y_pal2,Annual drug tariff of paliperidone LAI,3771.745,2828.80875,4714.68125,Gamma,61.4656,61.36351065,BNF 79 [Range: ±25%]
-cost_y_ris2,Annual drug tariff of risperidone LAI,1374.647,1030.98525,1718.30875,Gamma,61.4656,22.36449331,BNF 79 [Range: ±25%]
-cost_agc,Cost per episode of agranulocytosis,858,643.5,1072.5,Gamma,61.4656,13.95902749,NHS reference 2020 [Range: ±25%]
-cost_eps,Cost per episode of EPS,224.5607143,168.4205357,280.7008929,Gamma,61.4656,3.653437277,"NICE 2014, NHS reference 2020, BNF79 [Range: ±25%]"
-cost_sdtn,Cost per episode of sedation,39,29.25,48.75,Gamma,61.4656,0.634501249,"Assumption, PSSRU 2020 [Range: ±25%]"
-cost_sxdf,Cost per episode of sexual dysfunction,39,29.25,48.75,Gamma,61.4656,0.634501249,"Assumption, PSSRU 2020 [Range: ±25%]"
-cost_wg,Cost per episode of weight gain,98,73.5,122.5,Gamma,61.4656,1.594387755,"NICE 2014, PSSRU 2020 [Range:  ±25%]"
-cost_td,Cost per episode of tardive dyskinesia,224.5607143,168.4205357,280.7008929,Gamma,61.4656,3.653437277,Assume = EPS
-cost_y_chd_same_cvd0,Annual cost of CHD in people without prior CVD in year of CHD,4530,4231.587534,4828.412466,Norm,4530,152.2512583,Zhou 2023
-cost_y_chd_1y_cvd0,Annual cost of CHD in people without prior CVD in 1 year after CHD,560,463.8230797,656.1769203,Norm,560,49.0698573,Zhou 2023
-cost_y_chd_2y_cvd0,Annual cost of CHD in people without prior CVD in 2 years after CHD,380,296.7834151,463.2165849,Norm,380,42.45744127,Zhou 2023
-cost_y_chd_ge3y_cvd0,Annual cost of CHD in people without prior CVD in ?3 years after CHD,350,282.7318798,417.2681202,Norm,350,34.32046951,Zhou 2023
-cost_y_chd_same_cvd1,Annual cost of CHD in people with prior CVD in year of CHD,5840,5392.506983,6287.493017,Norm,5840,228.3127636,Zhou 2023
-cost_y_chd_1y_cvd1,Annual cost of CHD in people with prior CVD in 1 year after CHD,940,664.2283553,1215.771645,Norm,940,140.6998187,Zhou 2023
-cost_y_chd_2y_cvd1,Annual cost of CHD in people with prior CVD in 2 years after CHD,600,432.8922503,767.1077497,Norm,600,85.25905595,Zhou 2023
-cost_y_chd_ge3y_cvd1,Annual cost of CHD in people with prior CVD in ?3 years after CHD,600,432.8922503,767.1077497,Norm,600,85.25905595,Zhou 2023
-cost_y_strk_same_cvd0,Annual cost of stroke in people without prior CVD in year of stroke,5950,5676.869994,6223.130006,Norm,5950,139.3520437,Zhou 2023
-cost_y_strk_1y_cvd0,Annual cost of stroke in people without prior CVD in 1 year after stroke,1420,1204.767567,1635.232433,Norm,1420,109.8124656,Zhou 2023
-cost_y_strk_2y_cvd0,Annual cost of stroke in people without prior CVD in 2 years after stroke,770,630.9856123,909.0143877,Norm,770,70.92570803,Zhou 2023
-cost_y_strk_ge3y_cvd0,Annual cost of stroke in people without prior CVD in ?3 years after stroke,670,536.8647304,803.1352696,Norm,670,67.92615794,Zhou 2023
-cost_y_strk_same_cvd1,Annual cost of stroke in people with prior CVD in year of stroke,6600,6178.455222,7021.544778,Norm,6600,215.0738664,Zhou 2023
-cost_y_strk_1y_cvd1,Annual cost of stroke in people with prior CVD in 1 year after stroke,1610,1317.382502,1902.617498,Norm,1610,149.2946417,Zhou 2023
-cost_y_strk_2y_cvd1,Annual cost of stroke in people with prior CVD in 2 years after stroke,1240,983.8750305,1496.124969,Norm,1240,130.6760048,Zhou 2023
-cost_y_strk_ge3y_cvd1,Annual cost of stroke in people with prior CVD in ?3 years after stroke,1240,983.8750305,1496.124969,Norm,1240,130.6760048,Zhou 2023
-cost_y_db_lt10y_cvd0,Annual cost of diabetes in people without prior CVD in < 10 years after diabetes,520,495,545,Norm,520,12.75510204,Zhou 2023
-cost_y_db_ge10y_cvd0,Annual cost of diabetes in people without prior CVD in ?10 years after diabetes,650,602.8300943,697.1699057,Norm,650,24.0662784,Zhou 2023
-cost_y_db_lt10y_cvd1,Annual cost of diabetes in people with prior CVD in < 10 years after diabetes,650,578.936648,721.063352,Norm,650,36.25681225,Zhou 2023
-cost_y_db_ge10y_cvd1,Annual cost of diabetes in people with prior CVD in ?10 years after diabetes,810,712.9175608,907.0824392,Norm,810,49.53185673,Zhou 2023
-cost_vd_cvd0,Cost of death due to CHD or stroke in people without prior CVD,1460,1135.307838,1784.692162,Norm,1460,165.6592663,Zhou 2023
-cost_vd_cvd1,Cost of death due to CHD or stroke in people with prior CVD,2700,2226.475977,3173.524023,Norm,2700,241.5938891,Zhou 2023
-cost_nvd_cvd0,Cost of death due to the other resaons in people without prior CVD,5740,5513.891619,5966.108381,Norm,5740,115.3614189,Zhou 2023
-cost_nvd_cvd1,Cost of death due to the other resaons in people with prior CVD,6240,5805.114958,6674.885042,Norm,6240,221.8801236,Zhou 2023
-cost_y_rcvr,Annual cost of schizophrenia state of stable,6647.508703,3323.754351,9971.263054,Gamma,15.3664,432.6002644,"NICE 2014, PSSRU 2020 [Rrange: ±50%]"
-cost_y_rlps,Annual cost of schizophrenia state of relapse at non-acute phase,5320.714705,2660.357353,7981.072058,Gamma,15.3664,346.2564234,"NICE 2014, PSSRU 2020 [Rrange: ±50%]"
-cost_rlps,Cost of managing acute phase of a relapse episode,28645.45779,14322.7289,42968.18669,Gamma,15.3664,1864.161924,"NICE 2014, PSSRU 2020 [Rrange: ±50%]"
+parameter,description,value
+rlps_prob,Annual probability of relapse,0.71743574
+rlps_rr_ami_pla,Risk ratio of relapse by treatment: amisulpride oral vs. placebo,0.192592593
+rlps_rr_ari_pla,Risk ratio of relapse by treatment: aripiprazole oral vs. placebo,0.32
+rlps_rr_car_pla,Risk ratio of relapse by treatment: cariprazine oral vs. placebo,0.65
+rlps_rr_lur_pla,Risk ratio of relapse by treatment: lurasidone oral vs. placebo,0.63
+rlps_rr_ola_pla,Risk ratio of relapse by treatment: olanzapine oral vs. placebo,0.2
+rlps_rr_que_pla,Risk ratio of relapse by treatment: quetiapine oral vs. placebo,0.47
+rlps_rr_ris_pla,Risk ratio of relapse by treatment: risperidone oral vs. placebo,0.29
+rlps_rr_clo_pla,Risk ratio of relapse by treatment: clozapine oral vs. placebo,0.0594
+rlps_rr_ari2_pla,Risk ratio of relapse by treatment: aripiprazole LAI vs. placebo,0.32
+rlps_rr_pal2_pla,Risk ratio of relapse by treatment: paliperidone LAI vs. placebo,0.31
+rlps_rr_ris2_pla,Risk ratio of relapse by treatment: risperidone LAI vs. placebo,0.25
+rlps_hr_cmp_part_full,Hazard ratio of relapse by compliance: partial vs. full,1.785185185
+rlps_hr_cmp_none_full,Hazard ratio of relapse by compliance: none vs. full,2.585185185
+rcvr_time,"Duration of relapse, years",0.5
+discon_ami_prob,Annual probability of discontinuation using amisulpride oral,0.247319216
+discon_ari_prob,Annual probability of discontinuation using aripiprazole oral,0.458980365
+discon_car_prob,Annual probability of discontinuation using cariprazine oral,0.611973819
+discon_lur_prob,Annual probability of discontinuation using lurasidone oral,0.512528074
+discon_ola_prob,Annual probability of discontinuation using olanzapine oral,0.267738546
+discon_que_prob,Annual probability of discontinuation using quetiapine oral,0.420732001
+discon_ris_prob,Annual probability of discontinuation using risperidone oral,0.30598691
+discon_clo_prob,Annual probability of discontinuation using clozapine oral,0.327979719
+discon_ari2_prob,Annual probability of discontinuation using aripiprazole LAI,0.359534619
+discon_pal2_prob,Annual probability of discontinuation using paliperidone LAI,0.428381674
+discon_ris2_prob,Annual probability of discontinuation using risperidone LAI,0.344235273
+switch_rlps_prop,Proportion of switch after relapse,0.5
+eps_ami_prop,Proportion of acute EPS using amisulpride oral,0.28259234
+eps_ari_prop,Proportion of acute EPS using aripiprazole oral,0.414079644
+eps_car_prop,Proportion of acute EPS using cariprazine oral,0.357369789
+eps_lur_prop,Proportion of acute EPS using lurasidone oral,0.188733735
+eps_ola_prop,Proportion of acute EPS using olanzapine oral,0.043361325
+eps_que_prop,Proportion of acute EPS using quetiapine oral,0.211470449
+eps_ris_prop,Proportion of acute EPS using risperidone oral,0.258112607
+eps_clo_prop,Proportion of acute EPS using clozapine oral,0.064995097
+eps_ari2_prop,Proportion of acute EPS using aripiprazole LAI,0.451324766
+eps_pal2_prop,Proportion of acute EPS using paliperidone LAI,0.350168858
+eps_ris2_prop,Proportion of acute EPS using risperidone LAI,0.270781297
+wg_ami_prop,Proportion of weight gain using amisulpride oral,0.271179523
+wg_ari_prop,Proportion of weight gain using aripiprazole oral,0.128509926
+wg_car_prop,Proportion of weight gain using cariprazine oral,0.206
+wg_lur_prop,Proportion of weight gain using lurasidone oral,0.188679245
+wg_ola_prop,Proportion of weight gain using olanzapine oral,0.364118477
+wg_que_prop,Proportion of weight gain using quetiapine oral,0.4
+wg_ris_prop,Proportion of weight gain using risperidone oral,0.178914525
+wg_clo_prop,Proportion of weight gain using clozapine oral,0.256
+wg_ari2_prop,Proportion of weight gain using aripiprazole LAI,0.128509926
+wg_pal2_prop,Proportion of weight gain using paliperidone LAI,0.177347439
+wg_ris2_prop,Proportion of weight gain using risperidone LAI,0.178914525
+sdtn_ami_prop,Proportion of sedation using amisulpride oral,0.028163427
+sdtn_ari_prop,Proportion of sedation using aripiprazole oral,0.014
+sdtn_car_prop,Proportion of sedation using cariprazine oral,0.01
+sdtn_lur_prop,Proportion of sedation using lurasidone oral,0.0242
+sdtn_ola_prop,Proportion of sedation using olanzapine oral,0.0296
+sdtn_que_prop,Proportion of sedation using quetiapine oral,0.056
+sdtn_ris_prop,Proportion of sedation using risperidone oral,0.0236
+sdtn_clo_prop,Proportion of sedation using clozapine oral,0.152542373
+sdtn_ari2_prop,Proportion of sedation using aripiprazole LAI,0.0434
+sdtn_pal2_prop,Proportion of sedation using paliperidone LAI,0.035
+sdtn_ris2_prop,Proportion of sedation using risperidone LAI,0.0148
+sxdf_ami_prop,Proportion of sexual dysfunction using amisulpride oral,0.027522936
+sxdf_ari_prop,Proportion of sexual dysfunction using aripiprazole oral,0.274193548
+sxdf_car_prop,Proportion of sexual dysfunction using cariprazine oral,0.009765625
+sxdf_lur_prop,Proportion of sexual dysfunction using lurasidone oral,0
+sxdf_ola_prop,Proportion of sexual dysfunction using olanzapine oral,0.403578529
+sxdf_que_prop,Proportion of sexual dysfunction using quetiapine oral,0.147302905
+sxdf_ris_prop,Proportion of sexual dysfunction using risperidone oral,0.454258675
+sxdf_clo_prop,Proportion of sexual dysfunction using clozapine oral,0.527272727
+sxdf_ari2_prop,Proportion of sexual dysfunction using aripiprazole LAI,0.274193548
+sxdf_pal2_prop,Proportion of sexual dysfunction using paliperidone LAI,0.565723794
+sxdf_ris2_prop,Proportion of sexual dysfunction using risperidone LAI,0.454258675
+td_ami_prob,Annual probability of tardive dyskinesia using amisulpride oral,0.02371429
+td_ari_prob,Annual probability of tardive dyskinesia using aripiprazole oral,0.016856315
+td_car_prob,Annual probability of tardive dyskinesia using cariprazine oral,0.046866213
+td_lur_prob,Annual probability of tardive dyskinesia using lurasidone oral,0.046866213
+td_ola_prob,Annual probability of tardive dyskinesia using olanzapine oral,0.028583536
+td_que_prob,Annual probability of tardive dyskinesia using quetiapine oral,0.024690088
+td_ris_prob,Annual probability of tardive dyskinesia using risperidone oral,0.02371429
+td_clo_prob,Annual probability of tardive dyskinesia using clozapine oral,0.041130219
+td_ari2_prob,Annual probability of tardive dyskinesia using aripiprazole LAI,0.016856315
+td_pal2_prob,Annual probability of tardive dyskinesia using paliperidone LAI,0.02371429
+td_ris2_prob,Annual probability of tardive dyskinesia using risperidone LAI,0.02371429
+agc_clo_prop,Proportion of agranulocytosis using clozapine,0.007288401
+bmi_md_ami_pla,Mean difference of BMI (kg/m2) by treatment: amisulpride oral vs. placebo,1.66
+bmi_md_ari_pla,Mean difference of BMI (kg/m2) by treatment: aripiprazole oral vs. placebo,-0.22
+bmi_md_car_pla,Mean difference of BMI (kg/m2) by treatment: cariprazine oral vs. placebo,0.83
+bmi_md_lur_pla,Mean difference of BMI (kg/m2) by treatment: lurasidone oral vs. placebo,0.24
+bmi_md_ola_pla,Mean difference of BMI (kg/m2) by treatment: olanzapine oral vs. placebo,1.07
+bmi_md_que_pla,Mean difference of BMI (kg/m2) by treatment: quetiapine oral vs. placebo,0.7
+bmi_md_ris_pla,Mean difference of BMI (kg/m2) by treatment: risperidone oral vs. placebo,0.56
+bmi_md_clo_pla,Mean difference of BMI (kg/m2) by treatment: clozapine oral vs. placebo,1.02
+bmi_md_ari2_pla,Mean difference of BMI (kg/m2) by treatment: aripiprazole LAI vs. placebo,-0.22
+bmi_md_pal2_pla,Mean difference of BMI (kg/m2) by treatment: paliperidone LAI vs. placebo,0.56
+bmi_md_ris2_pla,Mean difference of BMI (kg/m2) by treatment: risperidone LAI vs. placebo,0.56
+tch_md_ami_pla,Mean difference of total cholesterol (mg/dL) by treatment: amisulpride oral vs. placebo,8.108108108
+tch_md_ari_pla,Mean difference of total cholesterol (mg/dL) by treatment: aripiprazole oral vs. placebo,2.316602317
+tch_md_car_pla,Mean difference of total cholesterol (mg/dL) by treatment: cariprazine oral vs. placebo,-3.474903475
+tch_md_lur_pla,Mean difference of total cholesterol (mg/dL) by treatment: lurasidone oral vs. placebo,-1.158301158
+tch_md_ola_pla,Mean difference of total cholesterol (mg/dL) by treatment: olanzapine oral vs. placebo,15.44401544
+tch_md_que_pla,Mean difference of total cholesterol (mg/dL) by treatment: quetiapine oral vs. placebo,11.96911197
+tch_md_ris_pla,Mean difference of total cholesterol (mg/dL) by treatment: risperidone oral vs. placebo,2.316602317
+tch_md_clo_pla,Mean difference of total cholesterol (mg/dL) by treatment: clozapine oral vs. placebo,21.62162162
+tch_md_ari2_pla,Mean difference of total cholesterol (mg/dL) by treatment: aripiprazole LAI vs. placebo,2.316602317
+tch_md_pal2_pla,Mean difference of total cholesterol (mg/dL) by treatment: paliperidone LAI vs. placebo,2.316602317
+tch_md_ris2_pla,Mean difference of total cholesterol (mg/dL) by treatment: risperidone LAI vs. placebo,2.316602317
+hdl_md_ami_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: amisulpride oral vs. placebo,-3.861003861
+hdl_md_ari_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: aripiprazole oral vs. placebo,1.544401544
+hdl_md_car_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: cariprazine oral vs. placebo,0.772200772
+hdl_md_lur_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: lurasidone oral vs. placebo,0.772200772
+hdl_md_ola_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: olanzapine oral vs. placebo,-0.386100386
+hdl_md_que_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: quetiapine oral vs. placebo,0.386100386
+hdl_md_ris_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: risperidone oral vs. placebo,0.386100386
+hdl_md_clo_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: clozapine oral vs. placebo,-4.48
+hdl_md_ari2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: aripiprazole LAI vs. placebo,1.544401544
+hdl_md_pal2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: paliperidone LAI vs. placebo,0.386100386
+hdl_md_ris2_pla,Mean difference of HDL cholesterol (mg/dL) by treatment: risperidone LAI vs. placebo,0.386100386
+tri_md_ami_pla,Mean difference of triglycerides (mg/dL) by treatment: amisulpride oral vs. placebo,7.96460177
+tri_md_ari_pla,Mean difference of triglycerides (mg/dL) by treatment: aripiprazole oral vs. placebo,1.769911504
+tri_md_car_pla,Mean difference of triglycerides (mg/dL) by treatment: cariprazine oral vs. placebo,0.884955752
+tri_md_lur_pla,Mean difference of triglycerides (mg/dL) by treatment: lurasidone oral vs. placebo,0
+tri_md_ola_pla,Mean difference of triglycerides (mg/dL) by treatment: olanzapine oral vs. placebo,40.7079646
+tri_md_que_pla,Mean difference of triglycerides (mg/dL) by treatment: quetiapine oral vs. placebo,28.31858407
+tri_md_ris_pla,Mean difference of triglycerides (mg/dL) by treatment: risperidone oral vs. placebo,3.539823009
+tri_md_clo_pla,Mean difference of triglycerides (mg/dL) by treatment: clozapine oral vs. placebo,86.72566372
+tri_md_ari2_pla,Mean difference of triglycerides (mg/dL) by treatment: aripiprazole LAI vs. placebo,1.769911504
+tri_md_pal2_pla,Mean difference of triglycerides (mg/dL) by treatment: paliperidone LAI vs. placebo,3.539823009
+tri_md_ris2_pla,Mean difference of triglycerides (mg/dL) by treatment: risperidone LAI vs. placebo,3.539823009
+glu_md_ami_pla,Mean difference of fasting glucose (mg/dL) by treatment: amisulpride oral vs. placebo,-8.288288288
+glu_md_ari_pla,Mean difference of fasting glucose (mg/dL) by treatment: aripiprazole oral vs. placebo,2.342342342
+glu_md_car_pla,Mean difference of fasting glucose (mg/dL) by treatment: cariprazine oral vs. placebo,4.684684685
+glu_md_lur_pla,Mean difference of fasting glucose (mg/dL) by treatment: lurasidone oral vs. placebo,-5.225225225
+glu_md_ola_pla,Mean difference of fasting glucose (mg/dL) by treatment: olanzapine oral vs. placebo,3.603603604
+glu_md_que_pla,Mean difference of fasting glucose (mg/dL) by treatment: quetiapine oral vs. placebo,1.621621622
+glu_md_ris_pla,Mean difference of fasting glucose (mg/dL) by treatment: risperidone oral vs. placebo,1.441441441
+glu_md_clo_pla,Mean difference of fasting glucose (mg/dL) by treatment: clozapine oral vs. placebo,18.91891892
+glu_md_ari2_pla,Mean difference of fasting glucose (mg/dL) by treatment: aripiprazole LAI vs. placebo,2.342342342
+glu_md_pal2_pla,Mean difference of fasting glucose (mg/dL) by treatment: paliperidone LAI vs. placebo,1.441441441
+glu_md_ris2_pla,Mean difference of fasting glucose (mg/dL) by treatment: risperidone LAI vs. placebo,1.441441441
+sbp_md_ami_pla,Mean difference of SBP (mmHg) by treatment: amisulpride oral vs. placebo,1.17
+sbp_md_ari_pla,Mean difference of SBP (mmHg) by treatment: aripiprazole oral vs. placebo,0.84
+sbp_md_car_pla,Mean difference of SBP (mmHg) by treatment: cariprazine oral vs. placebo,4.17
+sbp_md_lur_pla,Mean difference of SBP (mmHg) by treatment: lurasidone oral vs. placebo,-1.59
+sbp_md_ola_pla,Mean difference of SBP (mmHg) by treatment: olanzapine oral vs. placebo,1.28
+sbp_md_que_pla,Mean difference of SBP (mmHg) by treatment: quetiapine oral vs. placebo,2.6
+sbp_md_ris_pla,Mean difference of SBP (mmHg) by treatment: risperidone oral vs. placebo,2.6
+sbp_md_clo_pla,Mean difference of SBP (mmHg) by treatment: clozapine oral vs. placebo,3.9
+sbp_md_ari2_pla,Mean difference of SBP (mmHg) by treatment: aripiprazole LAI vs. placebo,0.84
+sbp_md_pal2_pla,Mean difference of SBP (mmHg) by treatment: paliperidone LAI vs. placebo,2.6
+sbp_md_ris2_pla,Mean difference of SBP (mmHg) by treatment: risperidone LAI vs. placebo,2.6
+db_logit_intercept,Intercept of logistic regression of diabetes,-5.517
+db_or_age_50t64,"Odds ratio of diabetes by age (50-64 vs. <50, year)",0.98
+db_or_age_65,"Odds ratio of diabetes by age (>=65 vs. <50, year)",0.92
+db_or_male,Odds ratio of diabetes by male,0.99
+db_or_pardb,Odds ratio of diabetes by parental diabetes (yes vs. no),1.76
+db_or_bmi_25t30,"Odds ratio of diabetes by BMI (25-30 vs. <25, kg/m2)",1.35
+db_or_bmi_30,"Odds ratio of diabetes by BMI (?30 vs. <25, kg/m2 )",2.5
+db_or_sbp_int_atht,Odds ratio of diabetes by SBP > 130/85 mmHg OR receiving therapy,1.65
+db_or_hdl_int_sex,Odds ratio of diabetes by HDL (men: < 40 mg/dL; women: <50 mg/dL),2.57
+db_or_tri_150,Odds ratio of diabetes by triglyceride level >= 150 mg/dL,1.78
+db_or_glu_100,Odds ratio of diabetes by fasting glucose level >= 100 mg/dL,7.25
+chd1_m_aft_weibull_intercept,Intercept of accelerated failure time weibull model of incident CHD in male,12.7868
+chd1_m_ar_age,Accelerated ratio of incident CHD in male by age (year),0.960309165
+chd1_m_ar_tch_int_hdl,Accelerated ratio of incident CHD in male by ln (total cholesterol/HDL),0.386973138
+chd1_m_ar_sbp,Accelerated ratio of incident CHD in male by ln (SBP) (lnmmHg),0.361931613
+chd1_m_ar_sbp_int_atht,"Accelerated ratio of incident CHD in male by If antihypertensive, (200 - SBP) * (SBP - 110) / 100 (mmHg)",0.984028912
+chd1_m_ar_db,Accelerated ratio of incident CHD in male by diabetes,0.643264041
+chd1_m_ar_smk,Accelerated ratio of incident CHD in male by current smoker,0.546511461
+chd1_m_aft_weibull_scale,Scale of accelerated failure time weibull model of incident CHD in male,0.7764
+chd1_f_aft_weibull_intercept,Intercept of accelerated failure time weibull model of incident CHD in female,20.9717
+chd1_f_ar_age,Accelerated ratio of incident CHD in female by age (year),0.939788903
+chd1_f_ar_meno,Accelerated ratio of incident CHD in female by menopause,0.021232972
+chd1_f_ar_age_int_meno,Accelerated ratio of incident CHD in female by age AND menopause (year),1.075300331
+chd1_f_ar_tch_int_hdl,Accelerated ratio of incident CHD in female by ln (total cholesterol/HDL),0.534940368
+chd1_f_ar_sbp,Accelerated ratio of incident CHD in female by ln (SBP) (lnmmHg),0.105938134
+chd1_f_ar_sbp_int_atht,Accelerated ratio of incident CHD in female by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,0.906648904
+chd1_f_ar_db,Accelerated ratio of incident CHD in female by diabetes,0.591969598
+chd1_f_ar_smk,Accelerated ratio of incident CHD in female by current smoker,0.685436101
+chd1_f_ar_tri,Accelerated ratio of incident CHD in female by ln (triglycerides) (ln mg/dL),1.308393436
+chd1_f_ar_alcohol,Accelerated ratio of incident CHD in female by alcohol (ow/wk),1.054324207
+chd1_f_aft_weibull_scale,Scale of accelerated failure time weibull model of incident CHD in female,0.7467
+chd2_m_aft_weibull_intercept,Intercept of accelerated failure time weibull model of subsequent CHD in male,4.995
+chd2_m_ar_age,Accelerated ratio of subsequent CHD in male by age (year),0.985604619
+chd2_m_ar_tch_int_hdl,Accelerated ratio of subsequent CHD in male by ln (total cholesterol/HDL),0.509767775
+chd2_m_ar_db,Accelerated ratio of subsequent CHD in male by diabetes,0.737713309
+chd2_m_aft_weibull_scale,Scale of accelerated failure time weibull model of subsequent CHD in male,0.9994
+chd2_f_aft_weibull_intercept,Intercept of accelerated failure time weibull model of subsequent CHD in female,13.537
+chd2_f_ar_age,Accelerated ratio of subsequent CHD in female by age (year),0.977751237
+chd2_f_ar_tch_int_hdl,Accelerated ratio of subsequent CHD in female by ln (total cholesterol/HDL),0.434308573
+chd2_f_ar_sbp,Accelerated ratio of subsequent CHD in female by ln (SBP) (lnmmHg),0.253776835
+chd2_f_ar_db,Accelerated ratio of subsequent CHD in female by diabetes,0.45707856
+chd2_f_ar_smk,Accelerated ratio of subsequent CHD in female by current smoker,0.692878929
+chd2_f_aft_weibull_scale,Scale of accelerated failure time weibull model of subsequent CHD in female,1.0313
+strk_m_aft_exp_rate,Rate of exponential model of stroke in male,0.003045921
+strk_m_hr_age,Hazard ratio of stroke in male by age (centre at 50 per 10 years),1.050010328
+strk_m_hr_sbp,Hazard ratio of stroke in male by SBP (centred at 110 per 10 mmHg),1.015316108
+strk_m_hr_sbp_int_atht,Hazard ratio of stroke in male by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,1.000190018
+strk_m_hr_cvd,Hazard ratio of stroke in male by CVD,1.726333853
+strk_m_hr_lvh,Hazard ratio of stroke in male by left ventricular hypertrophy,2.19547846
+strk_m_hr_smk,Hazard ratio of stroke in male by Current smoker,1.686069364
+strk_m_hr_af,Hazard ratio of stroke in male by atrial fabriation,1.821754413
+strk_m_hr_db,Hazard ratio of stroke in male by diabetes,1.409027852
+strk_f_aft_exp_rate,Rate of exponential model of stroke in female,0.001005034
+strk_f_hr_age,Hazard ratio of stroke in female by age (centre at 50 per 10 years),1.072400936
+strk_f_hr_sbp,Hazard ratio of stroke in female by SBP (centred at 110 per 10 mmHg),1.016230303
+strk_f_hr_sbp_int_atht,Hazard ratio of stroke in female by (200 - SBP) * (SBP - 110) / 100 (mmHg) AND using antihypertensive therapy,1.000260034
+strk_f_hr_cvd,Hazard ratio of stroke in female by CVD,1.553328426
+strk_f_hr_lvh,Hazard ratio of stroke in female by left ventricular hypertrophy,2.237815127
+strk_f_hr_smk,Hazard ratio of stroke in female by current smoker,1.719270375
+strk_f_hr_af,Hazard ratio of stroke in female by atrial fabriation,3.056590258
+strk_f_hr_db,Hazard ratio of stroke in female by diabetes,1.751372909
+death_m_smr,SMR of death in schizophrenia in male,4.1
+death_f_smr,SMR of death in schizophrenia in female,2.8
+death_strk_m_prop,Proportion of death at stroke in male,0.264
+death_strk_f_prop,Proportion of death at stroke in female,0.285
+death_chd_m_prop,Proportion of death at CHD in male,0.078245056
+death_chd_f_prop,Proportion of death at CHD in female,0.122904422
+death_agc_prop,Proportion of death at agranulocytosis,0.021505376
+qol_rcvr,Utility weight at stable state of schizophrenia,0.807037815
+qol_rlps,Utility weight at relapse state of schizophrenia,0.539635628
+qol_rd_agc,Utility weight by agranulocytosis,0.46
+qol_md_eps,Utility decrement due to EPS,-0.042
+qol_md_sdtn,Utility decrement due to sedation,-0.018
+qol_md_sxdf,Utility decrement due to sexual dysfunction,-0.023
+qol_md_wg,Utility decrement due to weight gain,-0.021
+qol_md_td,Utility decrement due to tardive dyskinesia,-0.042
+qol_md_db,Utility decrement due to diabetes,-0.15
+qol_md_chd,Utility decrement due to CHD,-0.055
+qol_md_strk,Utility decrement due to stroke,-0.16
+cost_y_ami,Annual drug tariff of amisulpride oral,85.83375
+cost_y_ari,Annual drug tariff of aripiprazole oral,23.74125
+cost_y_car,Annual drug tariff of cariprazine oral,1048.2675
+cost_y_lur,Annual drug tariff of lurasidone oral,1183.41
+cost_y_ola,Annual drug tariff of olanzapine oral,22.828125
+cost_y_que,Annual drug tariff of quetiapine oral,93.2605
+cost_y_ris,Annual drug tariff of risperidone oral,159.7207813
+cost_y_clo,Annual drug tariff of clozapine oral,867.834
+cost_y_ari2,Annual drug tariff of aripiprazole LAI,2644.92
+cost_y_pal2,Annual drug tariff of paliperidone LAI,3771.745
+cost_y_ris2,Annual drug tariff of risperidone LAI,1374.647
+cost_agc,Cost per episode of agranulocytosis,858
+cost_eps,Cost per episode of EPS,224.5607143
+cost_sdtn,Cost per episode of sedation,39
+cost_sxdf,Cost per episode of sexual dysfunction,39
+cost_wg,Cost per episode of weight gain,98
+cost_td,Cost per episode of tardive dyskinesia,224.5607143
+cost_y_chd_same_cvd0,Annual cost of CHD in people without prior CVD in year of CHD,4530
+cost_y_chd_1y_cvd0,Annual cost of CHD in people without prior CVD in 1 year after CHD,560
+cost_y_chd_2y_cvd0,Annual cost of CHD in people without prior CVD in 2 years after CHD,380
+cost_y_chd_ge3y_cvd0,Annual cost of CHD in people without prior CVD in ?3 years after CHD,350
+cost_y_chd_same_cvd1,Annual cost of CHD in people with prior CVD in year of CHD,5840
+cost_y_chd_1y_cvd1,Annual cost of CHD in people with prior CVD in 1 year after CHD,940
+cost_y_chd_2y_cvd1,Annual cost of CHD in people with prior CVD in 2 years after CHD,600
+cost_y_chd_ge3y_cvd1,Annual cost of CHD in people with prior CVD in ?3 years after CHD,600
+cost_y_strk_same_cvd0,Annual cost of stroke in people without prior CVD in year of stroke,5950
+cost_y_strk_1y_cvd0,Annual cost of stroke in people without prior CVD in 1 year after stroke,1420
+cost_y_strk_2y_cvd0,Annual cost of stroke in people without prior CVD in 2 years after stroke,770
+cost_y_strk_ge3y_cvd0,Annual cost of stroke in people without prior CVD in ?3 years after stroke,670
+cost_y_strk_same_cvd1,Annual cost of stroke in people with prior CVD in year of stroke,6600
+cost_y_strk_1y_cvd1,Annual cost of stroke in people with prior CVD in 1 year after stroke,1610
+cost_y_strk_2y_cvd1,Annual cost of stroke in people with prior CVD in 2 years after stroke,1240
+cost_y_strk_ge3y_cvd1,Annual cost of stroke in people with prior CVD in ?3 years after stroke,1240
+cost_y_db_lt10y_cvd0,Annual cost of diabetes in people without prior CVD in < 10 years after diabetes,520
+cost_y_db_ge10y_cvd0,Annual cost of diabetes in people without prior CVD in ?10 years after diabetes,650
+cost_y_db_lt10y_cvd1,Annual cost of diabetes in people with prior CVD in < 10 years after diabetes,650
+cost_y_db_ge10y_cvd1,Annual cost of diabetes in people with prior CVD in ?10 years after diabetes,810
+cost_vd_cvd0,Cost of death due to CHD or stroke in people without prior CVD,1460
+cost_vd_cvd1,Cost of death due to CHD or stroke in people with prior CVD,2700
+cost_nvd_cvd0,Cost of death due to the other resaons in people without prior CVD,5740
+cost_nvd_cvd1,Cost of death due to the other resaons in people with prior CVD,6240
+cost_y_rcvr,Annual cost of schizophrenia state of stable,6647.508703
+cost_y_rlps,Annual cost of schizophrenia state of relapse at non-acute phase,5320.714705
+cost_rlps,Cost of managing acute phase of a relapse episode,28645.45779
