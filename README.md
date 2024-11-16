@@ -1,5 +1,5 @@
 
-# HE-DES-Schizophrenia
+# HE-DES-Schizophrenia-UK
 
 Discrete event simulation model for the economic evaluation in
 schizophrenia
